@@ -1,2 +1,15 @@
+# Python virtual environment (if exists)
+venv/
+__pycache__/
+*.pyc
+
+# Key file (legacy)
 key.key
+
+# The encrypted password database
+# Contains sensitive information and should not be version controlled.
 passwords.txt
+
+# The salt file for key derivation.
+# While not secret, it's specific to an installation and not portable.
+salt.bin
